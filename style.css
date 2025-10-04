@@ -15,7 +15,10 @@ body {
 
 /* Container */
 #content {
-    display: inline-block;
+    /* display: inline-block; */
+    position: relative;  /* wichtig für Overlay */
+    width: 300px;
+    height: 300px;
 }
 
 /* Tabelle */
