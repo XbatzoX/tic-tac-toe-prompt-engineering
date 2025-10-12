@@ -197,4 +197,18 @@ function generateCrossSVG() {
     `;
 }
 
+function restartGame(){
+    fields = [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+    ];
 
+    render();
+}
